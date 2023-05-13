@@ -10,7 +10,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["justdoit-kwisniewski0103.pythonanywhere.com"]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
